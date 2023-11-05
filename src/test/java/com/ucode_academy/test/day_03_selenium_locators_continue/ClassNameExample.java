@@ -19,7 +19,7 @@ public class ClassNameExample {
     public static void main(String[] args) throws InterruptedException {
 
         // firstExample();
-        // secondExample();
+         secondExample();
     }
 
     public static void firstExample(){
