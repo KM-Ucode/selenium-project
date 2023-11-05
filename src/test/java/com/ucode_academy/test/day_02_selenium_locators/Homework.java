@@ -8,6 +8,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Homework {
     public static void main(String[] args) throws InterruptedException {
 
+        //Title Verification
+        //1. Open Chrome browser
+        //2. Go to https://www.etsy.com
+        //3. Search for "java"
+        //4. Verify title:
+        //Expected: "Java - Etsy"
+
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.google.com/");
@@ -22,13 +29,13 @@ public class Homework {
 
         WebElement searchButton = driver.findElement(By.id("global-enhancements-search-query"));
         searchButton.sendKeys("Java");
-        searchButton.click();
+        searchButton.click();      //how to click search button?
 
         Thread.sleep(3000);
 
         String actualTitle = driver.getTitle();
 
-        System.out.println("Title of the page: " + actualTitle);
+        System.out.println("Title of the page: " + actualTitle);  // title is different from Expected??
 
         driver.quit();
 
