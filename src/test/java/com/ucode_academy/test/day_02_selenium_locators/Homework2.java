@@ -1,6 +1,8 @@
 package com.ucode_academy.test.day_02_selenium_locators;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Homework2 {
@@ -20,6 +22,8 @@ public class Homework2 {
         Thread.sleep(2000);
 
         driver.navigate().to("http://zero.webappsecurity.com/login.html");
+        WebElement hText = driver.findElement(By.className("page-header"));
+        System.out.println(hText.getText());
 
         Thread.sleep(3000);
 
