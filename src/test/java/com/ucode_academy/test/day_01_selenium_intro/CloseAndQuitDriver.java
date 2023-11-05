@@ -13,7 +13,10 @@ public class CloseAndQuitDriver {
         driver.get("https://www.google.com/");
 
         // Maximize browser/window
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
+
+        // browser window full screen mode
+        driver.manage().window().fullscreen();
 
         // wait for 4 seconds
         Thread.sleep(4000);
