@@ -54,5 +54,6 @@ public class WebDriverMethodsReview {
         Thread.sleep(3000);
 
         driver.quit();
-}
+    }
+
 }
