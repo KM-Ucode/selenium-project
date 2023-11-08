@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class iframe {
+public class Iframe {
 
     public static void main(String[] args) {
 
@@ -18,7 +18,7 @@ public class iframe {
 
         System.out.println("Parent text = " + parentText.getText());
 
-        //locate the iframe and store it as web element
+        //locate the Iframe and store it as web element
         WebElement childFrame = driver.findElement(By.id("mce_0_ifr"));
 
         //switch to the child frame
@@ -35,7 +35,7 @@ public class iframe {
 
         WebElement parentText2 = driver.findElement(By.xpath("//h3"));
 
-        //try print the parent text after switching to child iframe
+        //try print the parent text after switching to child Iframe
         System.out.println("Parent text = " + parentText2.getText());
 
     }
