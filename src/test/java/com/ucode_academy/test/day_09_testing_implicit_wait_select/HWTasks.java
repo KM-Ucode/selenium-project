@@ -20,11 +20,11 @@ public class HWTasks {
     //7. Select family Album from product, set quantity to 2
     //8. Click to “Calculate” button
     //9. Fill address Info with JavaFaker
-    //• Generate: name, street, city, state, zip code
-    //10. Click on “visa” radio button
-    //11. Generate card number using JavaFaker
-    //12. Click on “Process”
-    //13. Verify success message “New order has been successfully added.”
+    //10• Generate: name, street, city, state, zip code
+    //11. Click on “visa” radio button
+    //12. Generate card number using JavaFaker
+    //13. Click on “Process”
+    //14. Verify success message “New order has been successfully added.”
 
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
