@@ -48,6 +48,7 @@ public class ExplicitWait2 extends TestBase {
         // refresh the page
         driver.navigate().refresh();
 
+        //urlContains
         wait.until(ExpectedConditions.urlContains("java"));
         System.out.println(driver.getCurrentUrl());
 
